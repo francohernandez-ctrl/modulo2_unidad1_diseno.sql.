@@ -7,7 +7,7 @@ CREATE TABLE clientes(
   perfil_bio VARCHAR(1000) NOT NULL,
   -- DATE: Solo fecha.
   fecha_registro DATE NOT NULL,
-  );  
+  ) 
 CREATE TABLE productos (
     -- INT: Clave primaria autoincremental adecuada para un catálogo proyectado de hasta 2 millones de artículos.
     id_producto INT PRIMARY KEY,
